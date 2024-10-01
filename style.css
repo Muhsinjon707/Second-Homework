@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fruits {
+    margin: 20px 20px;
+    height: 270px;
+    width: 262px;
+    border: 3px solid black;
+    background-color: rgb(87, 40, 163);
+    transition: all 3s easy-in-out;
+
+    &:hover {
+        transform: rotate(45deg);
+    }
+}
+
+.top-left {
+    display: inline-block;
+    background-color: yellow;
+    width: 120px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-bottom: 12px;
+    margin-right: 6px;
+}
+
+.orange {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: orange;
+    margin: 10px 10px;
+    border-top: 10px solid green;
+    border-left: 10px solid green;
+
+}
+
+.top-right {
+    display: inline-block;
+    background-color: yellow;
+    width: 120px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-bottom: 12px;
+    margin-left: 6px;
+}
+
+.strawberry {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: red;
+    margin: 10px 10px;
+    border-top: 10px solid green;
+    border-right: 10px solid green;
+}
+
+.bottom-left {
+    display: inline-block;
+    background-color: yellow;
+    width: 120px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-bottom: 12px;
+    margin-right: 6px;
+}
+
+.apple {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: greenyellow;
+    margin: 12px 10px;
+    border-left: 10px solid brown;
+    border-bottom: 10px solid brown;
+}
+
+.bottom-right {
+    display: inline-block;
+    background-color: yellow;
+    width: 120px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-bottom: 12px;
+    margin-left: 6px;
+}
+
+.pine-apple {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: brown;
+    margin: 12px 10px;
+    border-right: 10px solid green;
+    border-bottom: 10px solid green;
+}
